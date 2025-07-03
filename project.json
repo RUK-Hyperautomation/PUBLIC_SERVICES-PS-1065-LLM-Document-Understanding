@@ -1,0 +1,64 @@
+{
+  "name": "Public Services-PS-1065-LLM Document Understanding",
+  "projectId": "b35f5d09-0bb0-46a7-a603-ada8bc4f065c",
+  "description": "Rebuild of 1065 document understanding using custom Google DocAI processor via REST",
+  "main": "Main.xaml",
+  "dependencies": {
+    "Randstad.DocAI.Library": "[1.0.5]",
+    "Randstad.Utilities.Library_Windows": "[2.0.21]",
+    "UiPath.Database.Activities": "[1.10.0]",
+    "UiPath.GSuite.Activities": "[3.2.10]",
+    "UiPath.PDF.Activities": "[3.22.1]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "24.10.14.0",
+  "projectVersion": "1.0.7",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": false,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "54c5251a-6715-4000-bea8-b05c2bf36b9f",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {
+    "iconUrl": "https://www.randstad.co.uk/themes/custom/bluex/favicon.ico"
+  },
+  "targetFramework": "Windows"
+}
