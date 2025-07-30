@@ -183,7 +183,7 @@
       <AssemblyReference>UiPath.Database.Activities</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Flowchart DisplayName="Public Services-PS-1065-LLM Document Understanding" sap:VirtualizedContainerService.HintSize="880,373.04" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+  <Flowchart DisplayName="Public Services-PS-1065-LLM Document Understanding" sap:VirtualizedContainerService.HintSize="1433,620.04" sap2010:WorkflowViewState.IdRef="Flowchart_1">
     <Flowchart.Variables>
       <Variable x:TypeArguments="x:String" Name="SMTP_Server_Address" />
       <Variable x:TypeArguments="x:String" Name="Robot_From_Email" />
@@ -241,9 +241,9 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <Flowchart.StartNode>
-      <x:Reference>__ReferenceID16</x:Reference>
+      <x:Reference>__ReferenceID18</x:Reference>
     </Flowchart.StartNode>
-    <FlowStep x:Name="__ReferenceID16" sap2010:WorkflowViewState.IdRef="FlowStep_1">
+    <FlowStep x:Name="__ReferenceID18" sap2010:WorkflowViewState.IdRef="FlowStep_1">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">215,455</av:Point>
@@ -831,7 +831,7 @@
             </TryCatch.Catches>
           </TryCatch>
           <FlowStep.Next>
-            <FlowDecision x:Name="__ReferenceID3" Condition="[Queue_Items.Count() &gt; 0]" DisplayName="Are there items to process?" sap:VirtualizedContainerService.HintSize="60,60" sap2010:WorkflowViewState.IdRef="FlowDecision_1">
+            <FlowDecision x:Name="__ReferenceID2" Condition="[Queue_Items.Count() &gt; 0]" DisplayName="Are there items to process?" sap:VirtualizedContainerService.HintSize="60,60" sap2010:WorkflowViewState.IdRef="FlowDecision_1">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -946,7 +946,7 @@
                     </TryCatch.Catches>
                   </TryCatch>
                   <FlowStep.Next>
-                    <FlowDecision x:Name="__ReferenceID5" Condition="[Transaction_Item is nothing]" DisplayName="Does Transaction contain data?" sap:VirtualizedContainerService.HintSize="60,60" sap2010:WorkflowViewState.IdRef="FlowDecision_3">
+                    <FlowDecision x:Name="__ReferenceID4" Condition="[Transaction_Item is nothing]" DisplayName="Does Transaction contain data?" sap:VirtualizedContainerService.HintSize="60,60" sap2010:WorkflowViewState.IdRef="FlowDecision_3">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -978,7 +978,7 @@
                         </FlowStep>
                       </FlowDecision.True>
                       <FlowDecision.False>
-                        <FlowStep x:Name="__ReferenceID6" sap2010:WorkflowViewState.IdRef="FlowStep_5">
+                        <FlowStep x:Name="__ReferenceID5" sap2010:WorkflowViewState.IdRef="FlowStep_5">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <av:Point x:Key="ShapeLocation">215,1005</av:Point>
@@ -1101,7 +1101,7 @@
                             </TryCatch.Catches>
                           </TryCatch>
                           <FlowStep.Next>
-                            <FlowStep x:Name="__ReferenceID9" sap2010:WorkflowViewState.IdRef="FlowStep_6">
+                            <FlowStep x:Name="__ReferenceID8" sap2010:WorkflowViewState.IdRef="FlowStep_6">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <av:Point x:Key="ShapeLocation">215,1095</av:Point>
@@ -1339,7 +1339,7 @@
                                 </TryCatch.Catches>
                               </TryCatch>
                               <FlowStep.Next>
-                                <FlowDecision x:Name="__ReferenceID7" Condition="[Password_Protected]" DisplayName="Password Protected" sap:VirtualizedContainerService.HintSize="60,60" sap2010:WorkflowViewState.IdRef="FlowDecision_2">
+                                <FlowDecision x:Name="__ReferenceID6" Condition="[Password_Protected]" DisplayName="Password Protected" sap:VirtualizedContainerService.HintSize="60,60" sap2010:WorkflowViewState.IdRef="FlowDecision_2">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1350,15 +1350,15 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                   <FlowDecision.True>
-                                    <FlowStep x:Name="__ReferenceID2" sap2010:WorkflowViewState.IdRef="FlowStep_7">
+                                    <FlowStep x:Name="__ReferenceID12" sap2010:WorkflowViewState.IdRef="FlowStep_7">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <av:Point x:Key="ShapeLocation">395,1205</av:Point>
                                           <av:Size x:Key="ShapeSize">110,70</av:Size>
-                                          <av:PointCollection x:Key="ConnectorLocation">450,1205 450,820 325,820</av:PointCollection>
+                                          <av:PointCollection x:Key="ConnectorLocation">505,1240 535,1240 535,820 325,820</av:PointCollection>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
-                                      <TryCatch DisplayName="Escalation" sap:VirtualizedContainerService.HintSize="506,1329" sap2010:WorkflowViewState.IdRef="TryCatch_11">
+                                      <TryCatch DisplayName="Escalation" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="TryCatch_11">
                                         <TryCatch.Variables>
                                           <Variable x:TypeArguments="x:String" Name="FailedDocFileID" />
                                         </TryCatch.Variables>
@@ -1368,7 +1368,7 @@
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
                                         <TryCatch.Try>
-                                          <Sequence sap:VirtualizedContainerService.HintSize="468,1101" sap2010:WorkflowViewState.IdRef="Sequence_63">
+                                          <Sequence sap:VirtualizedContainerService.HintSize="468,1102" sap2010:WorkflowViewState.IdRef="Sequence_63">
                                             <Sequence.Variables>
                                               <Variable x:TypeArguments="x:String" Name="Email_Body" />
                                             </Sequence.Variables>
@@ -1420,15 +1420,33 @@
                                                 </scg:Dictionary>
                                               </sap:WorkflowViewStateService.ViewState>
                                             </uga:GSuiteApplicationScope>
-                                            <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_67">
+                                            <Assign sap:VirtualizedContainerService.HintSize="434,115" sap2010:WorkflowViewState.IdRef="Assign_67">
                                               <Assign.To>
                                                 <OutArgument x:TypeArguments="x:String">[Email_Body]</OutArgument>
                                               </Assign.To>
                                               <Assign.Value>
-                                                <InArgument x:TypeArguments="x:String">["&lt;div&gt;Dear User,&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;A robot has failed to process the following document:&lt;/div&gt;&lt;div&gt;&lt;p&gt;Document Name: " + Document_Name + "&lt;/p&gt;&lt;p&gt;Sent From: " + Transaction_Item.SpecificContent("Email Address").ToString + "&lt;/p&gt;&lt;p&gt;Received at: " + Transaction_Item.SpecificContent("Email Timestamp").ToString + "&lt;/p&gt;&lt;p&gt;Details: " + "An error occured while trying to extract data from the document: "+ Escalation_Error_Messages +"&lt;/p&gt;&lt;/div&gt;&lt;div&gt;A copy of the retrieved file can be found here: " + "https://drive.google.com/file/d/" + FailedDocFileID +"&lt;/div&gt;&lt;div&gt;&lt;br /&gt;Kind Regards&lt;br /&gt;&lt;br /&gt;"+Robot_Name+"&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;strong&gt; Randstad UK Holding Limited&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;Randstad Head Office&lt;br /&gt;450 Capability Green,&lt;br /&gt;Luton, Bedfordshire, LU1 3LU&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=""https://ci5.googleusercontent.com/proxy/aX5P1gsM3yMO8d5OVjMBNAbFmfzgz0S-whdHLa-i_UFNa9fjTPrRfy0hTrF3TOkPaCeeUKJPiIKOUpOPhE2SkbN0N_wIIyVrkxlBDzAEvriqZ4UW-1ncewpbNfz6Lgl1XuOA49AXCltembgcWv1x=s0-d-e1-ft#https://drive.google.com/a/randstad.co.uk/uc?id=0B_U-syVC9pT-dWN1UzJabjRtM1U&amp;amp;export=download"" alt="""" width=""600"" height=""100"" /&gt;&lt;/p&gt;"]</InArgument>
+                                                <InArgument x:TypeArguments="x:String" xml:space="preserve">["&lt;div&gt;Hi Team,&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;&lt;p&gt;We have encountered an email with an attached PDF file that is password protected and we have been unable to unlock the document using the passwords you have provided.&lt;/p&gt;&lt;/div&gt;
+&lt;div&gt;&lt;p&gt;I have attached the original email and the PDF attachment for your information. Email details:
+&lt;br /&gt;
+&lt;p&gt;Email Received From: " + Transaction_Item.SpecificContent("Email Address").ToString + "&lt;/p&gt;
+&lt;p&gt;Email Received: " + Transaction_Item.SpecificContent("Email Address").ToString + "&lt;/p&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;&lt;p&gt;Steps to ensure we can process:
+&lt;br /&gt;
+&lt;p&gt;Add the password to the &lt;a href=""https://docs.google.com/spreadsheets/d/1TN38lwqjoAJ9A3qE86DqO3LCsENAJGqgf0HZygyqGcs""&gt;Passwords Google Sheet&lt;/a&gt; OR Remove the password from the PDF&lt;/p&gt;
+&lt;p&gt;Send the PDF file back to dsa2letters@randstad.co.uk. Ensure you include the email address of the sender so that any automated communication goes to the correct person&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;Alternatively you will need to add the Student Funding to UFO manually.&lt;/p&gt;
+&lt;br /&gt;
+&lt;div&gt;A copy of the retrieved file can be found here: " + "https://drive.google.com/file/d/" + FailedDocFileID +"&lt;/div&gt;
+&lt;br /&gt;
+Thanks,
+&lt;br /&gt;
+"+Robot_Name]</InArgument>
                                               </Assign.Value>
                                             </Assign>
-                                            <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" ContinueOnError="{x:Null}" Email="{x:Null}" MailMessage="{x:Null}" Password="{x:Null}" ReplyTo="{x:Null}" ResourceAttachmentList="{x:Null}" ResourceAttachments="{x:Null}" Result="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" UseOAuth="{x:Null}" AttachmentInputMode="Existing" Body="[Email_Body]" ConnectionMode="LegacyConfiguration" DisplayName="Send Error Email " EnableSSL="True" From="[Robot_From_Email]" sap:VirtualizedContainerService.HintSize="434,275" sap2010:WorkflowViewState.IdRef="SendMail_3" IgnoreCRL="False" IsBodyHtml="True" Name="[Robot_Name]" Port="25" SecureConnection="Auto" Server="[SMTP_Server_Address]" Subject="[&quot;Unprocessed Document From &quot; + Transaction_Item.SpecificContent(&quot;Email Address&quot;).ToString]" To="[in_Errors_Email_Address]" UseISConnection="False">
+                                            <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" ContinueOnError="{x:Null}" Email="{x:Null}" MailMessage="{x:Null}" Password="{x:Null}" ReplyTo="{x:Null}" ResourceAttachmentList="{x:Null}" ResourceAttachments="{x:Null}" Result="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" UseOAuth="{x:Null}" AttachmentInputMode="Existing" Body="[Email_Body]" ConnectionMode="LegacyConfiguration" DisplayName="Send Error Email " EnableSSL="True" From="[Robot_From_Email]" sap:VirtualizedContainerService.HintSize="434,275" sap2010:WorkflowViewState.IdRef="SendMail_3" IgnoreCRL="False" IsBodyHtml="True" Name="[Robot_Name]" Port="25" SecureConnection="Auto" Server="[SMTP_Server_Address]" Subject="[&quot;Unprocessed Password Protected PDF from &quot; + Transaction_Item.SpecificContent(&quot;Email Address&quot;).ToString]" To="[in_Errors_Email_Address]" UseISConnection="False">
                                               <ui:SendMail.AttachmentsBackup>
                                                 <usau:BackupSlot x:TypeArguments="umame:AttachmentInputMode" StoredValue="Existing">
                                                   <usau:BackupSlot.BackupValues>
@@ -1515,7 +1533,7 @@
                                     </FlowStep>
                                   </FlowDecision.True>
                                   <FlowDecision.False>
-                                    <FlowStep x:Name="__ReferenceID8" sap2010:WorkflowViewState.IdRef="FlowStep_1">
+                                    <FlowStep x:Name="__ReferenceID7" sap2010:WorkflowViewState.IdRef="FlowStep_1">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <av:Point x:Key="ShapeLocation">215,1315</av:Point>
@@ -1953,11 +1971,11 @@
                                               <av:Point x:Key="ShapeLocation">240,1430</av:Point>
                                               <av:PointCollection x:Key="TrueConnector">270,1490 270,1535</av:PointCollection>
                                               <av:Size x:Key="ShapeSize">60,60</av:Size>
-                                              <av:PointCollection x:Key="FalseConnector">300,1460 450,1460 450,1275</av:PointCollection>
+                                              <av:PointCollection x:Key="FalseConnector">300,1460 395,1460</av:PointCollection>
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
                                           <FlowDecision.True>
-                                            <FlowStep x:Name="__ReferenceID10" sap2010:WorkflowViewState.IdRef="FlowStep_8">
+                                            <FlowStep x:Name="__ReferenceID9" sap2010:WorkflowViewState.IdRef="FlowStep_8">
                                               <sap:WorkflowViewStateService.ViewState>
                                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                   <av:Point x:Key="ShapeLocation">215,1535</av:Point>
@@ -2326,23 +2344,23 @@
                                                 </TryCatch.Catches>
                                               </TryCatch>
                                               <FlowStep.Next>
-                                                <FlowDecision x:Name="__ReferenceID12" Condition="[Validation_Success]" DisplayName="Validation Success" sap:VirtualizedContainerService.HintSize="60,60" sap2010:WorkflowViewState.IdRef="FlowDecision_4">
+                                                <FlowDecision x:Name="__ReferenceID11" Condition="[Validation_Success]" DisplayName="Validation Success" sap:VirtualizedContainerService.HintSize="60,60" sap2010:WorkflowViewState.IdRef="FlowDecision_4">
                                                   <sap:WorkflowViewStateService.ViewState>
                                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                       <av:Point x:Key="ShapeLocation">240,1640</av:Point>
                                                       <av:Size x:Key="ShapeSize">60,60</av:Size>
                                                       <av:PointCollection x:Key="TrueConnector">270,1700 270,1735</av:PointCollection>
-                                                      <av:PointCollection x:Key="FalseConnector">300,1670 450,1670 450,1275</av:PointCollection>
+                                                      <av:PointCollection x:Key="FalseConnector">300,1670 395,1670</av:PointCollection>
                                                     </scg:Dictionary>
                                                   </sap:WorkflowViewStateService.ViewState>
                                                   <FlowDecision.True>
-                                                    <FlowStep x:Name="__ReferenceID11" sap2010:WorkflowViewState.IdRef="FlowStep_1">
+                                                    <FlowStep x:Name="__ReferenceID10" sap2010:WorkflowViewState.IdRef="FlowStep_1">
                                                       <sap:WorkflowViewStateService.ViewState>
                                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                           <av:Point x:Key="ShapeLocation">215,1735</av:Point>
                                                           <av:Size x:Key="ShapeSize">110,70</av:Size>
-                                                          <av:PointCollection x:Key="ConnectorLocation">325,1770 385,1770</av:PointCollection>
+                                                          <av:PointCollection x:Key="ConnectorLocation">325,1770 395,1770</av:PointCollection>
                                                         </scg:Dictionary>
                                                       </sap:WorkflowViewStateService.ViewState>
                                                       <TryCatch DisplayName="Add to Database" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="TryCatch_10">
@@ -2480,9 +2498,9 @@
                                                         <FlowStep x:Name="__ReferenceID13" sap2010:WorkflowViewState.IdRef="FlowStep_9">
                                                           <sap:WorkflowViewStateService.ViewState>
                                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                              <av:Point x:Key="ShapeLocation">385,1735</av:Point>
+                                                              <av:Point x:Key="ShapeLocation">395,1735</av:Point>
                                                               <av:Size x:Key="ShapeSize">110,70</av:Size>
-                                                              <av:PointCollection x:Key="ConnectorLocation">495,1770 525,1770 525,820 325,820</av:PointCollection>
+                                                              <av:PointCollection x:Key="ConnectorLocation">505,1770 535,1770 535,820 325,820</av:PointCollection>
                                                             </scg:Dictionary>
                                                           </sap:WorkflowViewStateService.ViewState>
                                                           <TryCatch DisplayName="Complete transaction" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="TryCatch_12">
@@ -2572,14 +2590,389 @@
                                                     </FlowStep>
                                                   </FlowDecision.True>
                                                   <FlowDecision.False>
-                                                    <x:Reference>__ReferenceID2</x:Reference>
+                                                    <FlowStep x:Name="__ReferenceID16">
+                                                      <sap:WorkflowViewStateService.ViewState>
+                                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                          <av:Point x:Key="ShapeLocation">395,1635</av:Point>
+                                                          <av:Size x:Key="ShapeSize">110,70</av:Size>
+                                                          <av:PointCollection x:Key="ConnectorLocation">505,1670 535,1670 535,820 325,820</av:PointCollection>
+                                                        </scg:Dictionary>
+                                                      </sap:WorkflowViewStateService.ViewState>
+                                                      <TryCatch DisplayName="Escalation" sap:VirtualizedContainerService.HintSize="506,1430" sap2010:WorkflowViewState.IdRef="TryCatch_15">
+                                                        <TryCatch.Variables>
+                                                          <Variable x:TypeArguments="x:String" Name="FailedDocFileID" />
+                                                        </TryCatch.Variables>
+                                                        <sap:WorkflowViewStateService.ViewState>
+                                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                          </scg:Dictionary>
+                                                        </sap:WorkflowViewStateService.ViewState>
+                                                        <TryCatch.Try>
+                                                          <Sequence sap:VirtualizedContainerService.HintSize="468,1202" sap2010:WorkflowViewState.IdRef="Sequence_69">
+                                                            <Sequence.Variables>
+                                                              <Variable x:TypeArguments="x:String" Name="Email_Body" />
+                                                            </Sequence.Variables>
+                                                            <sap:WorkflowViewStateService.ViewState>
+                                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                              </scg:Dictionary>
+                                                            </sap:WorkflowViewStateService.ViewState>
+                                                            <uga:GSuiteApplicationScope Account="{x:Null}" BrowserItemFriendlyName="{x:Null}" BrowserItemFullPath="{x:Null}" BrowserItemId="{x:Null}" BrowserParentItemId="{x:Null}" BrowserRuntimeItemFriendlyName="{x:Null}" BrowserRuntimeItemFullPath="{x:Null}" BrowserRuntimeItemId="{x:Null}" BrowserRuntimeParentItemId="{x:Null}" BucketId="{x:Null}" BucketName="{x:Null}" ConnectionAccountName="{x:Null}" ConnectionId="{x:Null}" Connector="{x:Null}" ContinueOnError="{x:Null}" CredentialID="{x:Null}" CredentialSecret="{x:Null}" Folder="{x:Null}" ManualRuntimeItemFullPath="{x:Null}" SecureCredentialSecret="{x:Null}" TimeoutMS="{x:Null}" UserEmail="{x:Null}" ApiKey="[Google_API_Password]" AuthenticationType="ServiceAccountKey" BucketInputMode="Browse" ConfigLocation="PropertiesPanel" DataStoreLocation="DISK" DisplayName="GSuite Application Scope" HasDomainWideAccesss="False" sap:VirtualizedContainerService.HintSize="434,57" sap2010:WorkflowViewState.IdRef="GSuiteApplicationScope_3" KeyPath="[Google_Certificate]" KeyType="JSON" OAuthClient="UIPATH" Password="[Google_API_Password]" RuntimeItemInputMode="Browse" ServiceAccountEmail="[Google_Service_Account]" Services="Unselected" UseConnectionService="False">
+                                                              <uga:GSuiteApplicationScope.AuthenticationScopes>
+                                                                <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
+                                                                  <InArgument x:TypeArguments="x:String">https://www.googleapis.com/auth/drive</InArgument>
+                                                                </scg:List>
+                                                              </uga:GSuiteApplicationScope.AuthenticationScopes>
+                                                              <uga:GSuiteApplicationScope.Body>
+                                                                <ActivityAction x:TypeArguments="x:Object">
+                                                                  <ActivityAction.Argument>
+                                                                    <DelegateInArgument x:TypeArguments="x:Object" Name="GSuiteScope" />
+                                                                  </ActivityAction.Argument>
+                                                                  <Sequence DisplayName="Upload File to GSuite" sap:VirtualizedContainerService.HintSize="416,319" sap2010:WorkflowViewState.IdRef="Sequence_70">
+                                                                    <sap:WorkflowViewStateService.ViewState>
+                                                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                                      </scg:Dictionary>
+                                                                    </sap:WorkflowViewStateService.ViewState>
+                                                                    <uga:UploadFile ContinueOnError="{x:Null}" DriveTarget="{x:Null}" ParentFolderName="{x:Null}" AuthScopesInvalid="False" Convert="False" DisplayName="Upload File" sap:VirtualizedContainerService.HintSize="382,259" sap2010:WorkflowViewState.IdRef="UploadFile_2" LocalFilePath="[Document_Full_Path]" ParentId="[FailedDocumentFolder]" ParentIdSelectionMode="Browse" Result="[FailedDocFileID]" SupportsTeamDrives="False" UpdateExisting="False" />
+                                                                  </Sequence>
+                                                                </ActivityAction>
+                                                              </uga:GSuiteApplicationScope.Body>
+                                                              <uga:GSuiteApplicationScope.BucketFullPathBackup>
+                                                                <usau1:BackupSlot x:TypeArguments="ugade:EDriveItemMode" StoredValue="Browse">
+                                                                  <usau1:BackupSlot.BackupValues>
+                                                                    <scg:Dictionary x:TypeArguments="ugade:EDriveItemMode, scg:List(x:Object)" />
+                                                                  </usau1:BackupSlot.BackupValues>
+                                                                </usau1:BackupSlot>
+                                                              </uga:GSuiteApplicationScope.BucketFullPathBackup>
+                                                              <uga:GSuiteApplicationScope.RuntimeItemFullPathBackup>
+                                                                <usau1:BackupSlot x:TypeArguments="ugade:EDriveItemMode" StoredValue="{x:Null}">
+                                                                  <usau1:BackupSlot.BackupValues>
+                                                                    <scg:Dictionary x:TypeArguments="ugade:EDriveItemMode, scg:List(x:Object)" />
+                                                                  </usau1:BackupSlot.BackupValues>
+                                                                </usau1:BackupSlot>
+                                                              </uga:GSuiteApplicationScope.RuntimeItemFullPathBackup>
+                                                              <sap:WorkflowViewStateService.ViewState>
+                                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                                </scg:Dictionary>
+                                                              </sap:WorkflowViewStateService.ViewState>
+                                                            </uga:GSuiteApplicationScope>
+                                                            <Assign sap:VirtualizedContainerService.HintSize="434,115" sap2010:WorkflowViewState.IdRef="Assign_68">
+                                                              <Assign.To>
+                                                                <OutArgument x:TypeArguments="x:String">[Email_Body]</OutArgument>
+                                                              </Assign.To>
+                                                              <Assign.Value>
+                                                                <InArgument x:TypeArguments="x:String" xml:space="preserve">["&lt;div&gt;Hi Team,&lt;/div&gt;
+&lt;br /&gt;
+&lt;p&gt;We have encountered an email With an attached PDF file that we believe To be a DSA2 but we are unable to extract the key information required For automation.&lt;/p&gt;
+&lt;br /&gt;
+&lt;div&gt;I have attached the original email And the PDF attachment For your information. Email details:
+&lt;ul&gt;
+	&lt;li&gt;Email Received From: " + Transaction_Item.SpecificContent("Email Address").ToString + "&lt;/li&gt;
+	&lt;li&gt;Email Received: " + Transaction_Item.SpecificContent("Email Address").ToString + "&lt;/li&gt;
+	&lt;li&gt;Validation Errors: " +Escalation_Error_Messages+ "&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div&gt;
+Steps To ensure we can process:
+&lt;br /&gt;
+&lt;p&gt;Ask the Student Or Sender To resend a clearer version Of the DSA2 Letter. If scanning please consider these suggestions And advise the sender accordingly:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Cleanliness Is Key: Before you start, clean the scanner glass. A quick wipe With a lint-free cloth will remove any dust Or smudges that could show up As specks On your scan, confusing the Robot.&lt;/li&gt;
+	&lt;li&gt;Remove Obstructions: Make sure the physical document Is free Of anything that might interfere With the scan. That means no staples, paperclips, Or sticky notes. These can cause Shadows, misfeeds, Or even damage the scanner.&lt;/li&gt;
+	&lt;li&gt;Flatten And Straighten: Gently flatten any creases Or folds In the paper. An uneven surface can lead To distortions In the scanned image, making it harder For the Robot To accurately read text.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Alternatively you will need To add the Student Funding To UFO manually.&lt;/p&gt;
+&lt;div&gt;A copy of the retrieved file can be found here: " + "https://drive.google.com/file/d/" + FailedDocFileID +"&lt;/div&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+Thanks,
+&lt;br /&gt;
+"+Robot_Name]</InArgument>
+                                                              </Assign.Value>
+                                                            </Assign>
+                                                            <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" ContinueOnError="{x:Null}" Email="{x:Null}" MailMessage="{x:Null}" Password="{x:Null}" ReplyTo="{x:Null}" ResourceAttachmentList="{x:Null}" ResourceAttachments="{x:Null}" Result="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" UseOAuth="{x:Null}" AttachmentInputMode="Existing" Body="[Email_Body]" ConnectionMode="LegacyConfiguration" DisplayName="Send Error Email " EnableSSL="True" From="[Robot_From_Email]" sap:VirtualizedContainerService.HintSize="434,375" sap2010:WorkflowViewState.IdRef="SendMail_4" IgnoreCRL="False" IsBodyHtml="True" Name="[Robot_Name]" Port="25" SecureConnection="Auto" Server="[SMTP_Server_Address]" Subject="[&quot;Unprocessed Document From &quot; + Transaction_Item.SpecificContent(&quot;Email Address&quot;).ToString]" To="[in_Errors_Email_Address]" UseISConnection="False">
+                                                              <ui:SendMail.AttachmentsBackup>
+                                                                <usau:BackupSlot x:TypeArguments="umame:AttachmentInputMode" StoredValue="Existing">
+                                                                  <usau:BackupSlot.BackupValues>
+                                                                    <scg:Dictionary x:TypeArguments="umame:AttachmentInputMode, scg:List(x:Object)" />
+                                                                  </usau:BackupSlot.BackupValues>
+                                                                </usau:BackupSlot>
+                                                              </ui:SendMail.AttachmentsBackup>
+                                                              <ui:SendMail.ConnectionDetailsBackupSlot>
+                                                                <usau:BackupSlot x:TypeArguments="umae:ConnectionDetails" StoredValue="LegacyConfiguration">
+                                                                  <usau:BackupSlot.BackupValues>
+                                                                    <scg:Dictionary x:TypeArguments="umae:ConnectionDetails, scg:List(x:Object)" />
+                                                                  </usau:BackupSlot.BackupValues>
+                                                                </usau:BackupSlot>
+                                                              </ui:SendMail.ConnectionDetailsBackupSlot>
+                                                              <ui:SendMail.Files>
+                                                                <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
+                                                              </ui:SendMail.Files>
+                                                              <sap:WorkflowViewStateService.ViewState>
+                                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                                </scg:Dictionary>
+                                                              </sap:WorkflowViewStateService.ViewState>
+                                                            </ui:SendMail>
+                                                            <ucas:DeleteStorageFile TimeoutMS="{x:Null}" DisplayName="Delete Storage File" sap:VirtualizedContainerService.HintSize="434,165" sap2010:WorkflowViewState.IdRef="DeleteStorageFile_5" Path="[Document_Name]" StorageBucketName="[Document_Storage_Bucket]">
+                                                              <sap:WorkflowViewStateService.ViewState>
+                                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                                </scg:Dictionary>
+                                                              </sap:WorkflowViewStateService.ViewState>
+                                                            </ucas:DeleteStorageFile>
+                                                            <ucas:DeleteStorageFile TimeoutMS="{x:Null}" DisplayName="Delete Storage File" sap:VirtualizedContainerService.HintSize="382,165" sap2010:WorkflowViewState.IdRef="DeleteStorageFile_6" Path="[Email_Document]" StorageBucketName="[Document_Storage_Bucket]">
+                                                              <sap:WorkflowViewStateService.ViewState>
+                                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                                </scg:Dictionary>
+                                                              </sap:WorkflowViewStateService.ViewState>
+                                                            </ucas:DeleteStorageFile>
+                                                            <ui:SetTransactionStatus ContinueOnError="{x:Null}" ServiceBaseAddress="{x:Null}" TimeoutMS="{x:Null}" Details="[Escalation_Error_Messages]" DisplayName="Set Transaction Status" ErrorType="Business" sap:VirtualizedContainerService.HintSize="382,265" sap2010:WorkflowViewState.IdRef="SetTransactionStatus_11" Reason="[&quot;Sent for human intervention: &quot; + Escalation_Error_Messages]" Status="Failed" TransactionItem="[Transaction_Item]">
+                                                              <ui:SetTransactionStatus.Analytics>
+                                                                <scg:Dictionary x:TypeArguments="x:String, InArgument" />
+                                                              </ui:SetTransactionStatus.Analytics>
+                                                              <ui:SetTransactionStatus.Output>
+                                                                <scg:Dictionary x:TypeArguments="x:String, InArgument" />
+                                                              </ui:SetTransactionStatus.Output>
+                                                            </ui:SetTransactionStatus>
+                                                          </Sequence>
+                                                        </TryCatch.Try>
+                                                        <TryCatch.Catches>
+                                                          <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="420,22" sap2010:WorkflowViewState.IdRef="Catch`1_15">
+                                                            <sap:WorkflowViewStateService.ViewState>
+                                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                              </scg:Dictionary>
+                                                            </sap:WorkflowViewStateService.ViewState>
+                                                            <ActivityAction x:TypeArguments="s:Exception">
+                                                              <ActivityAction.Argument>
+                                                                <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                                                              </ActivityAction.Argument>
+                                                              <Sequence sap:VirtualizedContainerService.HintSize="416,620" sap2010:WorkflowViewState.IdRef="Sequence_71">
+                                                                <sap:WorkflowViewStateService.ViewState>
+                                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                                  </scg:Dictionary>
+                                                                </sap:WorkflowViewStateService.ViewState>
+                                                                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382,173" sap2010:WorkflowViewState.IdRef="LogMessage_39" Level="Error" Message="[&quot;an unexpected application error occured while trying to send escalation email, automation will be terminated&quot;]" />
+                                                                <ui:SetTransactionStatus ContinueOnError="{x:Null}" ServiceBaseAddress="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Set Transaction Status" ErrorType="Application" sap:VirtualizedContainerService.HintSize="382,274" sap2010:WorkflowViewState.IdRef="SetTransactionStatus_12" Reason="[exception.Message]" Status="Failed" TransactionItem="[Transaction_Item]">
+                                                                  <ui:SetTransactionStatus.Analytics>
+                                                                    <scg:Dictionary x:TypeArguments="x:String, InArgument" />
+                                                                  </ui:SetTransactionStatus.Analytics>
+                                                                  <ui:SetTransactionStatus.Output>
+                                                                    <scg:Dictionary x:TypeArguments="x:String, InArgument" />
+                                                                  </ui:SetTransactionStatus.Output>
+                                                                </ui:SetTransactionStatus>
+                                                                <TerminateWorkflow DisplayName="Terminate Workflow" sap:VirtualizedContainerService.HintSize="382,113" sap2010:WorkflowViewState.IdRef="TerminateWorkflow_13" Reason="[exception.Message]" />
+                                                              </Sequence>
+                                                            </ActivityAction>
+                                                          </Catch>
+                                                        </TryCatch.Catches>
+                                                      </TryCatch>
+                                                      <FlowStep.Next>
+                                                        <x:Reference>__ReferenceID1</x:Reference>
+                                                      </FlowStep.Next>
+                                                    </FlowStep>
                                                   </FlowDecision.False>
                                                 </FlowDecision>
                                               </FlowStep.Next>
                                             </FlowStep>
                                           </FlowDecision.True>
                                           <FlowDecision.False>
-                                            <x:Reference>__ReferenceID2</x:Reference>
+                                            <FlowStep x:Name="__ReferenceID17">
+                                              <sap:WorkflowViewStateService.ViewState>
+                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                  <av:Point x:Key="ShapeLocation">395,1425</av:Point>
+                                                  <av:Size x:Key="ShapeSize">110,70</av:Size>
+                                                  <av:PointCollection x:Key="ConnectorLocation">505,1460 535,1460 535,820 325,820</av:PointCollection>
+                                                </scg:Dictionary>
+                                              </sap:WorkflowViewStateService.ViewState>
+                                              <TryCatch DisplayName="Escalation" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="TryCatch_16">
+                                                <TryCatch.Variables>
+                                                  <Variable x:TypeArguments="x:String" Name="FailedDocFileID" />
+                                                </TryCatch.Variables>
+                                                <sap:WorkflowViewStateService.ViewState>
+                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                  </scg:Dictionary>
+                                                </sap:WorkflowViewStateService.ViewState>
+                                                <TryCatch.Try>
+                                                  <Sequence sap:VirtualizedContainerService.HintSize="468,1202" sap2010:WorkflowViewState.IdRef="Sequence_72">
+                                                    <Sequence.Variables>
+                                                      <Variable x:TypeArguments="x:String" Name="Email_Body" />
+                                                    </Sequence.Variables>
+                                                    <sap:WorkflowViewStateService.ViewState>
+                                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                      </scg:Dictionary>
+                                                    </sap:WorkflowViewStateService.ViewState>
+                                                    <uga:GSuiteApplicationScope Account="{x:Null}" BrowserItemFriendlyName="{x:Null}" BrowserItemFullPath="{x:Null}" BrowserItemId="{x:Null}" BrowserParentItemId="{x:Null}" BrowserRuntimeItemFriendlyName="{x:Null}" BrowserRuntimeItemFullPath="{x:Null}" BrowserRuntimeItemId="{x:Null}" BrowserRuntimeParentItemId="{x:Null}" BucketId="{x:Null}" BucketName="{x:Null}" ConnectionAccountName="{x:Null}" ConnectionId="{x:Null}" Connector="{x:Null}" ContinueOnError="{x:Null}" CredentialID="{x:Null}" CredentialSecret="{x:Null}" Folder="{x:Null}" ManualRuntimeItemFullPath="{x:Null}" SecureCredentialSecret="{x:Null}" TimeoutMS="{x:Null}" UserEmail="{x:Null}" ApiKey="[Google_API_Password]" AuthenticationType="ServiceAccountKey" BucketInputMode="Browse" ConfigLocation="PropertiesPanel" DataStoreLocation="DISK" DisplayName="GSuite Application Scope" HasDomainWideAccesss="False" sap:VirtualizedContainerService.HintSize="434,57" sap2010:WorkflowViewState.IdRef="GSuiteApplicationScope_4" KeyPath="[Google_Certificate]" KeyType="JSON" OAuthClient="UIPATH" Password="[Google_API_Password]" RuntimeItemInputMode="Browse" ServiceAccountEmail="[Google_Service_Account]" Services="Unselected" UseConnectionService="False">
+                                                      <uga:GSuiteApplicationScope.AuthenticationScopes>
+                                                        <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
+                                                          <InArgument x:TypeArguments="x:String">https://www.googleapis.com/auth/drive</InArgument>
+                                                        </scg:List>
+                                                      </uga:GSuiteApplicationScope.AuthenticationScopes>
+                                                      <uga:GSuiteApplicationScope.Body>
+                                                        <ActivityAction x:TypeArguments="x:Object">
+                                                          <ActivityAction.Argument>
+                                                            <DelegateInArgument x:TypeArguments="x:Object" Name="GSuiteScope" />
+                                                          </ActivityAction.Argument>
+                                                          <Sequence DisplayName="Upload File to GSuite" sap:VirtualizedContainerService.HintSize="416,319" sap2010:WorkflowViewState.IdRef="Sequence_73">
+                                                            <sap:WorkflowViewStateService.ViewState>
+                                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                              </scg:Dictionary>
+                                                            </sap:WorkflowViewStateService.ViewState>
+                                                            <uga:UploadFile ContinueOnError="{x:Null}" DriveTarget="{x:Null}" ParentFolderName="{x:Null}" AuthScopesInvalid="False" Convert="False" DisplayName="Upload File" sap:VirtualizedContainerService.HintSize="382,259" sap2010:WorkflowViewState.IdRef="UploadFile_3" LocalFilePath="[Document_Full_Path]" ParentId="[FailedDocumentFolder]" ParentIdSelectionMode="Browse" Result="[FailedDocFileID]" SupportsTeamDrives="False" UpdateExisting="False" />
+                                                          </Sequence>
+                                                        </ActivityAction>
+                                                      </uga:GSuiteApplicationScope.Body>
+                                                      <uga:GSuiteApplicationScope.BucketFullPathBackup>
+                                                        <usau1:BackupSlot x:TypeArguments="ugade:EDriveItemMode" StoredValue="Browse">
+                                                          <usau1:BackupSlot.BackupValues>
+                                                            <scg:Dictionary x:TypeArguments="ugade:EDriveItemMode, scg:List(x:Object)" />
+                                                          </usau1:BackupSlot.BackupValues>
+                                                        </usau1:BackupSlot>
+                                                      </uga:GSuiteApplicationScope.BucketFullPathBackup>
+                                                      <uga:GSuiteApplicationScope.RuntimeItemFullPathBackup>
+                                                        <usau1:BackupSlot x:TypeArguments="ugade:EDriveItemMode" StoredValue="{x:Null}">
+                                                          <usau1:BackupSlot.BackupValues>
+                                                            <scg:Dictionary x:TypeArguments="ugade:EDriveItemMode, scg:List(x:Object)" />
+                                                          </usau1:BackupSlot.BackupValues>
+                                                        </usau1:BackupSlot>
+                                                      </uga:GSuiteApplicationScope.RuntimeItemFullPathBackup>
+                                                      <sap:WorkflowViewStateService.ViewState>
+                                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                        </scg:Dictionary>
+                                                      </sap:WorkflowViewStateService.ViewState>
+                                                    </uga:GSuiteApplicationScope>
+                                                    <Assign sap:VirtualizedContainerService.HintSize="434,115" sap2010:WorkflowViewState.IdRef="Assign_69">
+                                                      <Assign.To>
+                                                        <OutArgument x:TypeArguments="x:String">[Email_Body]</OutArgument>
+                                                      </Assign.To>
+                                                      <Assign.Value>
+                                                        <InArgument x:TypeArguments="x:String" xml:space="preserve">["&lt;div&gt;Hi Team,&lt;/div&gt;
+&lt;br /&gt;
+&lt;p&gt;We have encountered an email With an attached PDF file that we believe To be a DSA2 but we are unable To extract the key information required For automation.&lt;/p&gt;
+&lt;br /&gt;
+&lt;div&gt;I have attached the original email And the PDF attachment For your information. Email details:
+&lt;ul&gt;
+	&lt;li&gt;Email Received From: " + Transaction_Item.SpecificContent("Email Address").ToString + "&lt;/li&gt;
+	&lt;li&gt;Email Received: " + Transaction_Item.SpecificContent("Email Address").ToString + "&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div&gt;
+Steps To ensure we can process:
+&lt;br /&gt;
+&lt;p&gt;Ask the Student Or Sender To resend a clearer version Of the DSA2 Letter. If scanning please consider these suggestions And advise the sender accordingly:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Cleanliness Is Key: Before you start, clean the scanner glass. A quick wipe With a lint-free cloth will remove any dust Or smudges that could show up As specks On your scan, confusing the Robot.&lt;/li&gt;
+	&lt;li&gt;Remove Obstructions: Make sure the physical document Is free Of anything that might interfere With the scan. That means no staples, paperclips, Or sticky notes. These can cause Shadows, misfeeds, Or even damage the scanner.&lt;/li&gt;
+	&lt;li&gt;Flatten And Straighten: Gently flatten any creases Or folds In the paper. An uneven surface can lead To distortions In the scanned image, making it harder For the Robot To accurately read text.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Alternatively you will need To add the Student Funding To UFO manually.&lt;/p&gt;
+&lt;div&gt;A copy of the retrieved file can be found here: " + "https://drive.google.com/file/d/" + FailedDocFileID +"&lt;/div&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+Thanks,
+&lt;br /&gt;
+"+Robot_Name]</InArgument>
+                                                      </Assign.Value>
+                                                    </Assign>
+                                                    <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" ContinueOnError="{x:Null}" Email="{x:Null}" MailMessage="{x:Null}" Password="{x:Null}" ReplyTo="{x:Null}" ResourceAttachmentList="{x:Null}" ResourceAttachments="{x:Null}" Result="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" UseOAuth="{x:Null}" AttachmentInputMode="Existing" Body="[Email_Body]" ConnectionMode="LegacyConfiguration" DisplayName="Send Error Email " EnableSSL="True" From="[Robot_From_Email]" sap:VirtualizedContainerService.HintSize="434,375" sap2010:WorkflowViewState.IdRef="SendMail_5" IgnoreCRL="False" IsBodyHtml="True" Name="[Robot_Name]" Port="25" SecureConnection="Auto" Server="[SMTP_Server_Address]" Subject="[&quot;Unprocessed Document From &quot; + Transaction_Item.SpecificContent(&quot;Email Address&quot;).ToString]" To="[in_Errors_Email_Address]" UseISConnection="False">
+                                                      <ui:SendMail.AttachmentsBackup>
+                                                        <usau:BackupSlot x:TypeArguments="umame:AttachmentInputMode" StoredValue="Existing">
+                                                          <usau:BackupSlot.BackupValues>
+                                                            <scg:Dictionary x:TypeArguments="umame:AttachmentInputMode, scg:List(x:Object)" />
+                                                          </usau:BackupSlot.BackupValues>
+                                                        </usau:BackupSlot>
+                                                      </ui:SendMail.AttachmentsBackup>
+                                                      <ui:SendMail.ConnectionDetailsBackupSlot>
+                                                        <usau:BackupSlot x:TypeArguments="umae:ConnectionDetails" StoredValue="LegacyConfiguration">
+                                                          <usau:BackupSlot.BackupValues>
+                                                            <scg:Dictionary x:TypeArguments="umae:ConnectionDetails, scg:List(x:Object)" />
+                                                          </usau:BackupSlot.BackupValues>
+                                                        </usau:BackupSlot>
+                                                      </ui:SendMail.ConnectionDetailsBackupSlot>
+                                                      <ui:SendMail.Files>
+                                                        <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
+                                                      </ui:SendMail.Files>
+                                                      <sap:WorkflowViewStateService.ViewState>
+                                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                        </scg:Dictionary>
+                                                      </sap:WorkflowViewStateService.ViewState>
+                                                    </ui:SendMail>
+                                                    <ucas:DeleteStorageFile TimeoutMS="{x:Null}" DisplayName="Delete Storage File" sap:VirtualizedContainerService.HintSize="434,165" sap2010:WorkflowViewState.IdRef="DeleteStorageFile_7" Path="[Document_Name]" StorageBucketName="[Document_Storage_Bucket]">
+                                                      <sap:WorkflowViewStateService.ViewState>
+                                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                        </scg:Dictionary>
+                                                      </sap:WorkflowViewStateService.ViewState>
+                                                    </ucas:DeleteStorageFile>
+                                                    <ucas:DeleteStorageFile TimeoutMS="{x:Null}" DisplayName="Delete Storage File" sap:VirtualizedContainerService.HintSize="382,165" sap2010:WorkflowViewState.IdRef="DeleteStorageFile_8" Path="[Email_Document]" StorageBucketName="[Document_Storage_Bucket]">
+                                                      <sap:WorkflowViewStateService.ViewState>
+                                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                        </scg:Dictionary>
+                                                      </sap:WorkflowViewStateService.ViewState>
+                                                    </ucas:DeleteStorageFile>
+                                                    <ui:SetTransactionStatus ContinueOnError="{x:Null}" ServiceBaseAddress="{x:Null}" TimeoutMS="{x:Null}" Details="[Escalation_Error_Messages]" DisplayName="Set Transaction Status" ErrorType="Business" sap:VirtualizedContainerService.HintSize="382,265" sap2010:WorkflowViewState.IdRef="SetTransactionStatus_13" Reason="[&quot;Sent for human intervention: &quot; + Escalation_Error_Messages]" Status="Failed" TransactionItem="[Transaction_Item]">
+                                                      <ui:SetTransactionStatus.Analytics>
+                                                        <scg:Dictionary x:TypeArguments="x:String, InArgument" />
+                                                      </ui:SetTransactionStatus.Analytics>
+                                                      <ui:SetTransactionStatus.Output>
+                                                        <scg:Dictionary x:TypeArguments="x:String, InArgument" />
+                                                      </ui:SetTransactionStatus.Output>
+                                                    </ui:SetTransactionStatus>
+                                                  </Sequence>
+                                                </TryCatch.Try>
+                                                <TryCatch.Catches>
+                                                  <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="420,22" sap2010:WorkflowViewState.IdRef="Catch`1_16">
+                                                    <sap:WorkflowViewStateService.ViewState>
+                                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                      </scg:Dictionary>
+                                                    </sap:WorkflowViewStateService.ViewState>
+                                                    <ActivityAction x:TypeArguments="s:Exception">
+                                                      <ActivityAction.Argument>
+                                                        <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                                                      </ActivityAction.Argument>
+                                                      <Sequence sap:VirtualizedContainerService.HintSize="416,620" sap2010:WorkflowViewState.IdRef="Sequence_74">
+                                                        <sap:WorkflowViewStateService.ViewState>
+                                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                          </scg:Dictionary>
+                                                        </sap:WorkflowViewStateService.ViewState>
+                                                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382,173" sap2010:WorkflowViewState.IdRef="LogMessage_40" Level="Error" Message="[&quot;an unexpected application error occured while trying to send escalation email, automation will be terminated&quot;]" />
+                                                        <ui:SetTransactionStatus ContinueOnError="{x:Null}" ServiceBaseAddress="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Set Transaction Status" ErrorType="Application" sap:VirtualizedContainerService.HintSize="382,274" sap2010:WorkflowViewState.IdRef="SetTransactionStatus_14" Reason="[exception.Message]" Status="Failed" TransactionItem="[Transaction_Item]">
+                                                          <ui:SetTransactionStatus.Analytics>
+                                                            <scg:Dictionary x:TypeArguments="x:String, InArgument" />
+                                                          </ui:SetTransactionStatus.Analytics>
+                                                          <ui:SetTransactionStatus.Output>
+                                                            <scg:Dictionary x:TypeArguments="x:String, InArgument" />
+                                                          </ui:SetTransactionStatus.Output>
+                                                        </ui:SetTransactionStatus>
+                                                        <TerminateWorkflow DisplayName="Terminate Workflow" sap:VirtualizedContainerService.HintSize="382,113" sap2010:WorkflowViewState.IdRef="TerminateWorkflow_14" Reason="[exception.Message]" />
+                                                      </Sequence>
+                                                    </ActivityAction>
+                                                  </Catch>
+                                                </TryCatch.Catches>
+                                              </TryCatch>
+                                              <FlowStep.Next>
+                                                <x:Reference>__ReferenceID1</x:Reference>
+                                              </FlowStep.Next>
+                                            </FlowStep>
                                           </FlowDecision.False>
                                         </FlowDecision>
                                       </FlowStep.Next>
@@ -2596,7 +2989,7 @@
                 </FlowStep>
               </FlowDecision.True>
               <FlowDecision.False>
-                <FlowStep x:Name="__ReferenceID4" sap2010:WorkflowViewState.IdRef="FlowStep_10">
+                <FlowStep x:Name="__ReferenceID3" sap2010:WorkflowViewState.IdRef="FlowStep_10">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <av:Point x:Key="ShapeLocation">395,675</av:Point>
@@ -2618,9 +3011,10 @@
       </FlowStep.Next>
     </FlowStep>
     <x:Reference>__ReferenceID0</x:Reference>
+    <x:Reference>__ReferenceID2</x:Reference>
     <x:Reference>__ReferenceID3</x:Reference>
-    <x:Reference>__ReferenceID4</x:Reference>
     <x:Reference>__ReferenceID1</x:Reference>
+    <x:Reference>__ReferenceID4</x:Reference>
     <x:Reference>__ReferenceID5</x:Reference>
     <x:Reference>__ReferenceID6</x:Reference>
     <x:Reference>__ReferenceID7</x:Reference>
@@ -2629,9 +3023,10 @@
     <x:Reference>__ReferenceID10</x:Reference>
     <x:Reference>__ReferenceID11</x:Reference>
     <x:Reference>__ReferenceID12</x:Reference>
-    <x:Reference>__ReferenceID2</x:Reference>
     <x:Reference>__ReferenceID13</x:Reference>
     <x:Reference>__ReferenceID14</x:Reference>
     <x:Reference>__ReferenceID15</x:Reference>
+    <x:Reference>__ReferenceID16</x:Reference>
+    <x:Reference>__ReferenceID17</x:Reference>
   </Flowchart>
 </Activity>
