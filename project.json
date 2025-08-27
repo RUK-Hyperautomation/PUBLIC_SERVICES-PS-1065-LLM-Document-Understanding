@@ -4,7 +4,8 @@
   "description": "Rebuild of 1065 document understanding using custom Google DocAI processor via REST",
   "main": "Main.xaml",
   "dependencies": {
-    "Randstad.DocAI.Library": "[1.0.5]",
+    "CL001-Google.Custom.Activities": "[1.0.18]",
+    "Randstad.DocAI.Library": "[1.0.10-alpha]",
     "Randstad.Utilities.Library_Windows": "[2.0.21]",
     "UiPath.Database.Activities": "[1.10.0]",
     "UiPath.GSuite.Activities": "[3.2.10]",
